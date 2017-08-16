@@ -12,3 +12,6 @@ notifications:
     on_success: change
     on_failure: always
   slack: thecomfyseat:jVMGoJuVUS90mBAB6Ogw1jAq
+
+after_success:
+- npm run coveralls
