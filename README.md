@@ -1,5 +1,7 @@
 # cheapcopy
 [![Build Status](https://travis-ci.org/theinfamousrj/CheapCopy.svg?branch=master)](https://travis-ci.org/theinfamousrj/CheapCopy)
+[![Coverage Status](https://coveralls.io/repos/github/theinfamousrj/CheapCopy/badge.svg?branch=master)](https://coveralls.io/github/theinfamousrj/CheapCopy?branch=master)
+[![Known Vulnerabilities](https://snyk.io/test/github/theinfamousrj/cheapcopy/badge.svg)](https://snyk.io/test/github/theinfamousrj/cheapcopy)
 
 This node module is a super small deep copy for objects.
 
