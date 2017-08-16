@@ -3,7 +3,7 @@ expect = chai.expect
 
 CopyMachine = require "../index"
 
-describe 'copy', ->
+describe '.copy()', ->
     it 'makes a deep copy of any object', (done) ->
         objectToCopy = { someString: "Certainly a string.", horse: true, potion: 1 }
         newObject = CopyMachine.copy(objectToCopy)
