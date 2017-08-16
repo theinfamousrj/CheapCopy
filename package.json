@@ -1,6 +1,6 @@
 {
   "name": "cheapcopy",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Simple and cheap deep copy for those that want it.",
   "main": "index.js",
   "scripts": {

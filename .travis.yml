@@ -6,11 +6,6 @@ branches:
   - master
 
 notifications:
-  email:
-    recipients:
-    - raymondjohnhill@gmail.com
-    on_success: change
-    on_failure: always
   slack: thecomfyseat:jVMGoJuVUS90mBAB6Ogw1jAq
 
 after_success:
