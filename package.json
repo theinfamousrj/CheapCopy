@@ -1,10 +1,10 @@
 {
   "name": "cheapcopy",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simple and cheap deep copy for those that want it.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register",
+    "test": "mocha test",
     "cover": "istanbul cover _mocha",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
@@ -26,7 +26,6 @@
   "homepage": "https://github.com/theinfamousrj/CheapCopy#readme",
   "devDependencies": {
     "chai": "^4.1.1",
-    "coffee-script": "^1.12.7",
     "coveralls": "^2.13.1",
     "istanbul": "^0.4.5",
     "mocha": "^3.5.0",
