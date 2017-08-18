@@ -7,7 +7,7 @@ This node module is a super small deep copy for objects.
 
 # Install
 
-```
+```{r, engine='bash'}
 $ npm install cheapcopy
 ```
 
